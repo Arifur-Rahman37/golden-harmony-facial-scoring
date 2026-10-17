@@ -1,0 +1,34 @@
+{
+  "naive_r": 0.054,
+  "ols_regression_cv_r": -0.066,
+  "ridge_cv_r": 0.0197,
+  "ridge_cv_p": 0.6609813718343873,
+  "ridge_alpha": 1000.0,
+  "ridge_coefficients": {
+    "P1-Score": 0.012,
+    "P2-Score": -0.0105,
+    "P3-Score": 0.0436,
+    "P4-Score": 0.0311,
+    "S1-Score": 0.0107,
+    "S2-Score": 0.0104,
+    "S3-Score": -0.0022,
+    "S4-Score": 0.0023,
+    "S5-Score": 0.0009,
+    "S6-Score": -0.0006
+  },
+  "lasso_cv_r": -0.0816,
+  "lasso_cv_p": 0.06886173931017982,
+  "lasso_alpha": 0.3393221771895326,
+  "lasso_coefficients": {
+    "P1-Score": 0.0,
+    "P2-Score": -0.0,
+    "P3-Score": 0.0215,
+    "P4-Score": 0.0,
+    "S1-Score": 0.0,
+    "S2-Score": 0.0,
+    "S3-Score": -0.0,
+    "S4-Score": -0.0,
+    "S5-Score": -0.0,
+    "S6-Score": -0.0
+  }
+}

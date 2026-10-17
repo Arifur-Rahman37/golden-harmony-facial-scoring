@@ -1,0 +1,10 @@
+Comparison,r,n,CI_low,CI_high
+"Golden Ratio, naive, image-level",0.082,498,-0.006,0.169
+"Golden Ratio, regression CV, image-level",0.322,498,0.241,0.399
+"Golden Ratio, regression in-sample, image-level",0.388,498,0.311,0.46
+"Proportion+Symmetry, naive, image-level",0.054,498,-0.034,0.141
+"Proportion+Symmetry, regression CV, image-level",-0.066,498,-0.153,0.022
+"Combined, naive, image-level",0.091,498,0.003,0.177
+"Combined, regression in-sample, image-level",0.412,498,0.336,0.482
+"Combined, regression CV, image-level",0.295,498,0.213,0.373
+"Combined, regression in-sample, subject-level",0.556,100,0.404,0.678
