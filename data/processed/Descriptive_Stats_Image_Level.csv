@@ -1,0 +1,7 @@
+Score,N,Mean,SD,Min,Max
+Golden Ratio — AI score,498,4.778,0.63,3.345,7.642
+Golden Ratio — Human rating,498,4.778,1.625,1.0,10.0
+Proportion+Symmetry — AI score,500,7.334,0.746,4.449,8.77
+Proportion+Symmetry — Human rating,500,4.781,1.622,1.0,10.0
+Combined (20-feature) — AI score,498,4.778,0.669,2.685,7.935
+Combined (20-feature) — Human rating,498,4.778,1.625,1.0,10.0

@@ -1,0 +1,7 @@
+Module,Level,N,Pearson_r,Pearson_p,Spearman_r,Spearman_p,Source_File
+Golden Ratio (R1-R10 only),Image-level,498,0.082,0.06748249017284662,0.0799,0.0746877454564171,Golden_10Core_image_level_output.csv
+Golden Ratio (R1-R10 only),Subject-level,100,0.135,0.1803762632114665,0.1042,0.30206291090096277,Golden_10Core_subject_level_summary.csv
+"Proportion + Symmetry (P1-P4, S1-S6)",Image-level,500,0.0546,0.22277461926499867,0.0567,0.20587192543100755,PropSym_image_level_output.csv
+"Proportion + Symmetry (P1-P4, S1-S6)",Subject-level,100,-0.0353,0.7274308204829842,0.0099,0.9223473227933552,PropSym_subject_level_summary.csv
+"Combined (20-feature, weighted-regression)",Image-level,498,0.4117,8.59711321417912e-22,0.3968,3.147349411247236e-20,Golden_20Core_Combined_image_level_output.csv
+"Combined (20-feature, weighted-regression)",Subject-level,100,0.5558,1.9352095697443453e-09,0.5411,6.155041083124934e-09,Golden_20Core_Combined_subject_level_summary.csv
