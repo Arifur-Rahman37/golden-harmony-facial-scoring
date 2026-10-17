@@ -1,8 +1,0 @@
-Module,Method,Features,Pearson_r,p_value,N,Validation
-Golden Ratio (R1-R10),Naive (equal-weight average),10,0.082,0.0675,498,"N/A (naive formula, no fitting)"
-"Proportion + Symmetry (P1-P4, S1-S6)",Naive (equal-weight average),10,0.0546,0.2228,500,"N/A (naive formula, no fitting)"
-Golden Ratio (R1-R10),Linear Regression,10,0.3219,1.82e-13,498,5-fold cross-validated (out-of-sample)
-"Proportion + Symmetry (P1-P4, S1-S6)",Linear Regression,10,-0.0658,0.1417,500,5-fold cross-validated (out-of-sample)
-Combined (Golden + Proportion + Symmetry),Naive (equal-weight average),20,0.0908,0.0428,498,"N/A (naive formula, no fitting)"
-Combined (Golden + Proportion + Symmetry),Linear Regression,20,0.2947,1.94e-11,498,5-fold cross-validated (out-of-sample)
-Combined (Golden + Proportion + Symmetry),Linear Regression,20,0.4117,8.6e-22,498,In-sample (full-data fit; reference/upper-bound only)
