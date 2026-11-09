@@ -59,7 +59,7 @@ headline = [
     ("Golden Ratio, naive, image-level", 0.082, 498),
     ("Golden Ratio, regression CV, image-level", 0.322, 498),
     ("Golden Ratio, regression in-sample, image-level", 0.388, 498),
-    ("Proportion+Symmetry, naive, image-level", 0.054, 498),
+    ("Proportion+Symmetry, naive, image-level", 0.050, 498),
     ("Proportion+Symmetry, regression CV, image-level", -0.021, 498),
     ("Combined, naive, image-level", 0.091, 498),
     ("Combined, regression in-sample, image-level", 0.412, 498),
@@ -96,7 +96,7 @@ print(f"Significant after FDR (Benjamini-Hochberg, q<0.05): {reject_fdr.sum()}/2
 # =====================================================================
 # 4. RIDGE / LASSO regularized regression for Proportion+Symmetry (10 feat)
 # =====================================================================
-ps = pd.read_csv("PropSym_image_level_FIXED498.csv")
+ps = pd.read_csv("PropSym_image_level_FIXED498_rescaled.csv")
 feat_cols = ["P1-Score", "P2-Score", "P3-Score", "P4-Score", "S1-Score", "S2-Score", "S3-Score", "S4-Score", "S5-Score", "S6-Score"]
 X = ps[feat_cols].values
 y = ps["Human-Rating-Avg"].values
@@ -119,10 +119,10 @@ print("\n=== Proportion+Symmetry: regularized regression (5-fold CV, out-of-samp
 print(f"Plain OLS regression (already reported):      r = -0.021")
 print(f"Ridge regression  (alpha={ridge.alpha_:.3f}):           r = {ridge_r:.3f}, p = {ridge_p:.4f}")
 print(f"Lasso regression  (alpha={lasso.alpha_:.4f}):          r = {lasso_r:.3f}, p = {lasso_p:.4f}")
-print(f"Naive equal-weight average (already reported): r = 0.054")
+print(f"Naive equal-weight average (already reported): r = 0.050")
 
 reg_results = {
-    "naive_r": 0.054,
+    "naive_r": 0.050,
     "ols_regression_cv_r": -0.021,
     "ridge_cv_r": round(float(ridge_r), 4),
     "ridge_cv_p": float(ridge_p),
