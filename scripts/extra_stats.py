@@ -60,7 +60,7 @@ headline = [
     ("Golden Ratio, regression CV, image-level", 0.322, 498),
     ("Golden Ratio, regression in-sample, image-level", 0.388, 498),
     ("Proportion+Symmetry, naive, image-level", 0.054, 498),
-    ("Proportion+Symmetry, regression CV, image-level", -0.066, 498),
+    ("Proportion+Symmetry, regression CV, image-level", -0.021, 498),
     ("Combined, naive, image-level", 0.091, 498),
     ("Combined, regression in-sample, image-level", 0.412, 498),
     ("Combined, regression CV, image-level", 0.295, 498),
