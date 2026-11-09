@@ -113,8 +113,8 @@ def make_scatter(csv_path, score_col, human_col, n_expected, title, fname, point
 # =================================================================
 def make_naive_vs_regression_bar():
     modules = ["Golden\nRatio", "Proportion +\nSymmetry", "Combined\n(20-feature)"]
-    naive_r = [0.0820, 0.0546, 0.0918]     # image-level naive r for each module
-    cv_r    = [0.3219, -0.0658, 0.2950]    # image-level cross-validated regression r
+    naive_r = [0.0820, 0.0504, 0.0908]     # image-level naive r for each module
+    cv_r    = [0.3219, -0.0208, 0.2947]    # image-level cross-validated regression r
 
     x = np.arange(len(modules))
     width = 0.34
