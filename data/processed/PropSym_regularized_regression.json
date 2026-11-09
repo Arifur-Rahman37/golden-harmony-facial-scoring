@@ -1,6 +1,6 @@
 {
-  "naive_r": 0.054,
-  "ols_regression_cv_r": -0.066,
+  "naive_r": 0.0542,
+  "ols_regression_cv_r": -0.0208,
   "ridge_cv_r": 0.0197,
   "ridge_cv_p": 0.6609813718343873,
   "ridge_alpha": 1000.0,
