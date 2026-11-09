@@ -116,14 +116,14 @@ ridge.fit(X, y)
 lasso.fit(X, y)
 
 print("\n=== Proportion+Symmetry: regularized regression (5-fold CV, out-of-sample) ===")
-print(f"Plain OLS regression (already reported):      r = -0.066")
+print(f"Plain OLS regression (already reported):      r = -0.021")
 print(f"Ridge regression  (alpha={ridge.alpha_:.3f}):           r = {ridge_r:.3f}, p = {ridge_p:.4f}")
 print(f"Lasso regression  (alpha={lasso.alpha_:.4f}):          r = {lasso_r:.3f}, p = {lasso_p:.4f}")
 print(f"Naive equal-weight average (already reported): r = 0.054")
 
 reg_results = {
     "naive_r": 0.054,
-    "ols_regression_cv_r": -0.066,
+    "ols_regression_cv_r": -0.021,
     "ridge_cv_r": round(float(ridge_r), 4),
     "ridge_cv_p": float(ridge_p),
     "ridge_alpha": float(ridge.alpha_),
