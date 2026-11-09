@@ -1,6 +1,6 @@
 Module,Method,Pearson_r,p_value,N
 Golden Ratio (R1-R10),Naive (equal-weight average),0.135,0.1804,100
 Golden Ratio (R1-R10),Linear Regression (in-sample),0.5203,2.89e-08,100
-"Proportion + Symmetry (P1-P4, S1-S6)",Naive (equal-weight average),-0.0263,0.7954,100
-Combined (Golden + Proportion + Symmetry),Naive (equal-weight average),,,100
+"Proportion + Symmetry (P1-P4, S1-S6)",Naive (equal-weight average),-0.0316,0.7553,100
+Combined (Golden + Proportion + Symmetry),Naive (equal-weight average),0.0658,0.5157,100
 Combined (Golden + Proportion + Symmetry),Linear Regression (in-sample),0.5558,1.94e-09,100
