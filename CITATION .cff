@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Golden Harmony: facial geometry scoring code and data for 'Golden Ratio, Proportion, and Symmetry: A Calibrated Attractiveness Model'"
+type: software
+authors:
+  - family-names: "Rahad"
+    given-names: "Md. Arifur Rahman"
+    affiliation: "Daffodil International University"
+    orcid: "https://orcid.org/0009-0005-8114-6347"
+  - family-names: "Akhtaruzzaman"
+    given-names: "M."
+    affiliation: "Daffodil International University"
+    orcid: "https://orcid.org/0000-0002-9929-4066"
+doi: 10.5281/zenodo.23433443
+repository-code: "https://github.com/Arifur-Rahman37/golden-harmony-facial-scoring"
+license: MIT
+version: v1.6
+date-released: 2026-11-18
